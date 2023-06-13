@@ -5,7 +5,10 @@ import reactivePhysio from '../public/assets/images/reactive-physio.png';
 import shoppingCart from '../public/assets/images/shopping-cart.png';
 import todoList from '../public/assets/images/todo-list.png';
 import weatherApp from '../public/assets/images/weather-app.png';
-import uniqid from 'uniqid'
+import adminDashboard from '../public/assets/images/admin-dashboard.png';
+import signupForm from '../public/assets/images/sign-up-form.png';
+import personalPortfolio from '../public/assets/images/personal-portfolio.png';
+import uniqid from 'uniqid';
 
 export const projectList = [
     {
@@ -47,7 +50,7 @@ export const projectList = [
     {
         id: uniqid(),
         name: 'Todo List',
-        description: 'A todo list app to manage personal tasks and projects.',
+        description: "A todo list app to manage personal tasks and projects, while saving them on users' browser.",
         tech: 'Javascript HTML CSS date-fns',
         src: todoList,
         demo: 'https://htmlpreview.github.io/?https://github.com/dcksn-c/todo-list/blob/main/dist/index.html',
@@ -61,5 +64,41 @@ export const projectList = [
         src: weatherApp,
         demo: 'https://htmlpreview.github.io/?https://github.com/dcksn-c/weather-app/blob/main/dist/index.html',
         github: 'https://github.com/dcksn-c/weather-app'
+    },
+    {
+        id: uniqid(),
+        name: 'Admin Dashboard',
+        description: 'Full dashboard design built with CSS Grid & Flex Box.',
+        tech: 'Javascript HTML CSS',
+        src: adminDashboard,
+        demo: 'https://htmlpreview.github.io/?https://github.com/dcksn-c/admin-dashboard/blob/main/index.html',
+        github: 'https://github.com/dcksn-c/admin-dashboard'
+    },
+    {
+        id: uniqid(),
+        name: 'Sign-Up Form',
+        description: 'Simple sign-up form with form validations.',
+        tech: 'Javascript HTML CSS',
+        src: signupForm,
+        demo: 'https://htmlpreview.github.io/?https://github.com/dcksn-c/sign-up-form/blob/main/index.html',
+        github: 'https://github.com/dcksn-c/sign-up-form'
+    },
+    {
+        id: uniqid(),
+        name: 'Reactive Physio',
+        description: "An actual live site that I built for my friend's new business using Wordpress.",
+        tech: '',
+        src: reactivePhysio,
+        demo: 'https://reactivephysio.com.my/',
+        github: ''
+    },
+    {
+        id: uniqid(),
+        name: 'Personal Portfolio',
+        description: '...and last but not least, this responsive portfolio site that also supports dark & light modes.',
+        tech: 'Javascript HTML CSS Next React FramerMotion Tailwind',
+        src: personalPortfolio,
+        demo: '',
+        github: 'https://github.com/dcksn-c/personal-portfolio'
     },
 ]

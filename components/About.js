@@ -1,27 +1,38 @@
 import React from 'react';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import Image from 'next/image';
 import avatar from '../public/assets/images/avatar.png';
 
 export const About = () => {
   return (
-    <section id='about' className='md:flex justify-center items-center md:h-screen mt-16 md:mt-0'>
-      <div className='text-center p-10'>
-        <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400'>Dickson</h2>
-        <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Aspiring developer.</h3>
-        <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-          <AiFillTwitterCircle />
-          <AiFillLinkedin />
-          <AiFillYoutube />
+    <section id='about' className='md:flex justify-center items-center md:h-[calc(100vh-88px)] pt-[calc(88px+2.5rem)] md:pt-0 md:mt-[88px]'>
+      <div className='md:flex justify-center items-center'>
+        <div className='relative flex-shrink-0 bg-gradient-to-b mx-auto md:mr-10 from-teal-500 rounded-full w-60 h-60 overflow-hidden md:h-80 md:w-80'>
+          <Image src={avatar} fill style={{objectFit:"contain"}}/>
         </div>
-      </div>
-        
-      <div className='relative flex-shrink-0 bg-gradient-to-b mx-auto from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
-        <Image src={avatar} fill style={{objectFit:"cover"}}/>
+        <div className='text-center px-10'>
+          <h2 className='text-5xl pt-10 text-teal-500 font-extrabold md:text-6xl'>Dickson</h2>
+          <h3 className='text-xl font-extrabold md:text-3xl dark:text-[#f4f4f4]'>Aspiring developer.</h3>
+          <p className='text-md py-10 leading-8 md:text-xl md:min-w-[28rem] max-w-lg mx-auto dark:text-[#f4f4f4]'>
+            After graduating from university in 2016, I said to myself, <em>"I'm never going back to school"</em>...and guess who got back into studying? <em>Me.</em>
+            <br/>
+            Well it turned out that learning things that I'm interested in is actually...enjoyable!
+            <br/>
+            As an aspiring self-taught front-end developer, I'm well aware that learning about coding is a lifelong journey. I'm excited to embark on this new journey
+            & any opportunity is greatly appreciated!
+          </p>
+          <div className='text-4xl flex justify-center gap-12 dark:text-[#f4f4f4] cursor-pointer'>
+            <a href='https://github.com/dcksn-c' target='_blank'>
+              <AiFillGithub className='hover:text-teal-500 transition' />
+            </a>
+            <a href='https://www.linkedin.com/in/dickson-choong-407953130/' target='_blank'>
+              <AiFillLinkedin className='hover:text-teal-500 transition' />
+            </a>
+            <a href='mailto:dickson.c94@gmail.com'>
+              <AiFillMail className='hover:text-teal-500 transition'/>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   )

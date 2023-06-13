@@ -1,4 +1,5 @@
-import uniqid from 'uniqid'
+import uniqid from 'uniqid';
+import framerMotionIcon from '../public/assets/icons/framer-motion.svg'
 
 export const iconLibrary = [
     {   
@@ -28,6 +29,11 @@ export const iconLibrary = [
     },
     {   
         id: uniqid(),
+        name: "Framer Motion",
+        src: framerMotionIcon,
+    },
+    {   
+        id: uniqid(),
         name: "Git",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     },
@@ -50,6 +56,11 @@ export const iconLibrary = [
         id: uniqid(),
         name: "Jest",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+    {   
+        id: uniqid(),
+        name: "Linux",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
     },
     {   
         id: uniqid(),

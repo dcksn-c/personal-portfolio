@@ -13,10 +13,16 @@
   margin: 0;
 }
 
+main,
+nav {
+  @apply transition-colors duration-200
+}
+
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  @apply text-gray-900;
 }
 
 body {
@@ -32,4 +38,8 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.active {
+  @apply text-teal-500 transition
 }

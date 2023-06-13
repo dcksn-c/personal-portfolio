@@ -5,7 +5,6 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import { useTheme } from 'next-themes';
 import { FaBars, FaTimesCircle } from "react-icons/fa";
 import { useRouter } from 'next/navigation';
-//import resume from '../public/assets/resume/resume.pdf'
 
 export const NavBar = () => {
   const {systemTheme, theme, setTheme} = useTheme();
@@ -56,7 +55,7 @@ export const NavBar = () => {
           </li>
 
           <li className='text-left font-extrabold text-xl md:pb-0 md:text-xl md:px-4 cursor-pointer '>
-            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 shadow-md text-white px-4 py-2 rounded-md" href='#'>Resume</a>
+            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 shadow-md text-white px-4 py-2 rounded-md" href='/assets/resume/resume.pdf' target='_blank'>Resume</a>
           </li>
 
           <li className='hidden md:block text-left uppercase md:text-xl md:pl-4 cursor-pointer '>

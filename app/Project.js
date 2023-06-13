@@ -19,14 +19,14 @@ export const Project = (props) => {
                         <a href={demo} target='_blank'>
                             <button className='bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 shadow-md text-[#f4f4f4] px-4 py-1 rounded-md flex items-center'>
                                 Demo 
-                                <Image src={externalLink} className='text-[#f4f4f4] ml-1' height={20} width={20}/> 
+                                <Image src={externalLink} className='text-[#f4f4f4] ml-1' height={20} width={20} alt=''/> 
                             </button>
                         </a>}
                     {github === '' ? null : 
                         <a href={github} target='_blank'>
                             <button className='bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 shadow-md text-[#f4f4f4] px-4 py-1 rounded-md flex items-center'>
                                 Code 
-                                <Image src={code} className='text-[#f4f4f4] ml-1' height={20} width={20}/>
+                                <Image src={code} className='text-[#f4f4f4] ml-1' height={20} width={20} alt=''/>
                             </button>
                         </a>}
                 </div>

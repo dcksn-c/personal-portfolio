@@ -15,7 +15,7 @@ export const Skills = () => {
           <div>
             <div className='text-teal-500 flex flex-col items-center md:mt-[88px]'>
               <span>
-                <Image src={languageIcon} width={80}/>
+                <Image src={languageIcon} width={80} alt=''/>
               </span>
               <h3 className='text-2xl font-extrabold pb-10 text-teal-500'>Languages & Tools</h3>
             </div>

@@ -14,7 +14,7 @@ export const Projects = () => {
       <div>
         <div className='text-teal-500 flex flex-col items-center '>
           <span>
-            <Image src={projectIcon} width={80}/>
+            <Image src={projectIcon} width={80} alt=''/>
           </span>
           <h3 className='text-2xl font-extrabold'>Projects</h3>
         </div>

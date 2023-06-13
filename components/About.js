@@ -8,7 +8,7 @@ export const About = () => {
     <section id='about' className='md:flex justify-center items-center md:h-[calc(100vh-88px)] pt-[calc(88px+2.5rem)] md:pt-0 md:mt-[88px]'>
       <div className='md:flex justify-center items-center'>
         <div className='relative flex-shrink-0 bg-gradient-to-b mx-auto md:mr-10 from-teal-500 rounded-full w-60 h-60 overflow-hidden md:h-80 md:w-80'>
-          <Image src={avatar} fill style={{objectFit:"contain"}}/>
+          <Image src={avatar} fill style={{objectFit:"contain"}} alt='avatar'/>
         </div>
         <div className='text-center px-10'>
           <h2 className='text-5xl pt-10 text-teal-500 font-extrabold md:text-6xl'>Dickson</h2>

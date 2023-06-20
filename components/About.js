@@ -14,7 +14,7 @@ export const About = () => {
           <h2 className='text-5xl text-teal-500 font-extrabold md:text-6xl'>Dickson</h2>
           <h3 className='text-xl font-extrabold md:text-3xl dark:text-[#f4f4f4]'>Aspiring developer.</h3>
           <p className='text-md py-10 leading-8 md:text-xl md:min-w-[28rem] max-w-lg mx-auto dark:text-[#f4f4f4]'>
-            After graduating from university in 2016, I said to myself, <em>"I'm never going back to school"</em>...and guess who got back into studying? <em>Me.</em>
+            After first graduating from university, I said to myself, <em>"I'm never going back to school"</em>...and guess who got back into studying? <em>Me.</em>
             <br/>
             Well it turned out that learning things that I'm interested in is actually...enjoyable!
             <br/>
